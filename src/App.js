@@ -7,6 +7,7 @@ import Category from "./pages/category/category";
 import Offer from "./pages/offer/offer";
 import Login from "./pages/login/login";
 import AuthRoute from "./pages/auth/authRoute";
+import ContactListing from "./pages/contact/contact-listing";
 
 function App() {
     const location = useLocation();
@@ -21,6 +22,7 @@ function App() {
                     <Route path='/category' element={<Category/>}/>
                     <Route path='/add-product/:id' element={<AddProduct/>}/>
                     <Route path='/offer' element={<Offer/>}/>
+                    <Route path='/contactlisting' element={<ContactListing/>}/>
                 </Route>
             </Routes>
         </>

@@ -22,7 +22,8 @@ const drawerWidth = 240;
 const navItems = [
     {label: 'Offer', path: '/offer'},
     {label: 'Category', path: '/category'},
-    {label: 'Product List', path: '/'}
+    {label: 'Product List', path: '/'},
+    {label: 'Contact Listing', path: '/contactlisting'}
 ];
 
 function Navbar(props) {
